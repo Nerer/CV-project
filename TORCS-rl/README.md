@@ -22,7 +22,10 @@ We customized the platform to get segmentation images and RGB or grey scale imag
 For more details(for example how to run on sever, and our customization approach), please refer to Yurong You's github.
 We run this code on personal laptop. We don't have a server that satisfies its requirements. So we cannot tell how would it perform when running on a server.
 ## installation
-run `install.sh` in the root folder with sudo:
+First download torcs-1.3.6.zip from https://jbox.sjtu.edu.cn/l/SHwJum, and extract it under folder `TORCS-rl`, make it become `TORCS-rl/torcs-1.3.6`
+
+
+run `install.sh` in the `TORCS-rl` folder with sudo:
 
 	sudo ./install.sh
 ## training
